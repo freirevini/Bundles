@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
-const source = path.join(__dirname, '..');
+const source = path.join(__dirname, '..', 'templates', 'Skill');
 const destBase = process.cwd();
 const dest = path.join(destBase, '.agent', 'skills');
 
