@@ -1,0 +1,33 @@
+{
+    "name": "@freirevini/bundles",
+    "version": "1.0.0",
+    "description": "Curated skill bundles for AI assistants (VS Code Code Assist, Antigravity, Claude Code, Cursor)",
+    "main": "index.js",
+    "bin": {
+        "bundles": "./bin/install.js"
+    },
+    "scripts": {
+        "postinstall": "node bin/install.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/freirevini/Bundles.git"
+    },
+    "keywords": [
+        "ai",
+        "skills",
+        "bundles",
+        "claude",
+        "cursor",
+        "antigravity",
+        "code-assist",
+        "llm",
+        "agents"
+    ],
+    "author": "freirevini",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/freirevini/Bundles/issues"
+    },
+    "homepage": "https://github.com/freirevini/Bundles#readme"
+}
