@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "python-patterns",
+  "title": "Python Patterns",
+  "description": "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "python",
+    "api",
+    "ai",
+    "ml",
+    "database",
+    "security",
+    "testing"
+  ],
+  "tools": [
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep"
+  ],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

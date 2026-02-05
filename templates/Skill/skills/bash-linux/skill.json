@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "id": "bash-linux",
+  "title": "Bash Linux Patterns",
+  "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "node",
+    "api",
+    "debug"
+  ],
+  "tools": [
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep",
+    "Bash"
+  ],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

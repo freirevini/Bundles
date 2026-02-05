@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "agendamentopython",
+  "title": "AgendamentoPython",
+  "category": "Python",
+  "description": "Bundle de skills para AgendamentoPython",
+  "skills": [
+    "airflow-dag-patterns",
+    "async-python-patterns",
+    "bullmq-specialist",
+    "deployment-pipeline-design",
+    "error-handling-patterns",
+    "github-actions-templates",
+    "incident-runbook-templates",
+    "inngest",
+    "on-call-handoff-patterns",
+    "python-patterns",
+    "python-pro",
+    "temporal-python-pro",
+    "trigger-dev",
+    "workflow-automation",
+    "workflow-orchestration-patterns"
+  ],
+  "total_skills": 15,
+  "author": "freirevini"
+}

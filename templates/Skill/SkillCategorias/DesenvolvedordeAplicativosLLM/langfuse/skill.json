@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "langfuse",
+  "title": "Langfuse",
+  "description": "\"Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production. Use when: langfuse, llm observability, llm tracing, prompt management, llm evaluation.\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "llm",
+    "testing",
+    "python",
+    "typescript",
+    "javascript",
+    "api",
+    "debug"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

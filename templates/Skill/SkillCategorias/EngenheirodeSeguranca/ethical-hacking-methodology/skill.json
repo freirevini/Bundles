@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "id": "ethical-hacking-methodology",
+  "title": "Ethical Hacking Methodology",
+  "description": "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques.",
+  "version": "\"1.1\"",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "testing",
+    "security",
+    "database",
+    "api",
+    "sql"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "deployment-pipeline-design",
+  "title": "Deployment Pipeline Design",
+  "description": "Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use when architecting deployment workflows, setting up continuous delivery, or implementing GitOps practices.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "security",
+    "azure",
+    "kubernetes",
+    "testing",
+    "python",
+    "docker",
+    "api"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

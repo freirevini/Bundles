@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "autonomous-agents",
+  "title": "Autonomous Agents",
+  "description": "\"Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance. The challenge isn't making them capable - it's making them reliable. Every extra decision multiplies failure probability.  This skill covers agent loops (ReAct, Plan-Execute), goal decomposition, reflection patterns, and production reliability. Key insight: compounding error rates kill autonomous agents. A 95% success rate per step drops to 60% b\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "ai",
+    "react",
+    "api"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

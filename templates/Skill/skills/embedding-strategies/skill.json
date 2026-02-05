@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "embedding-strategies",
+  "title": "Embedding Strategies",
+  "description": "Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "rag",
+    "api",
+    "python"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

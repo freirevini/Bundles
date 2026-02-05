@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "id": "test-fixing",
+  "title": "Test Fixing",
+  "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "api"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

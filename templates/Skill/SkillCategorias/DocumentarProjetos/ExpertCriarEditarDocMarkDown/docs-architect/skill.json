@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "id": "docs-architect",
+  "title": "Docs Architect",
+  "description": "Creates comprehensive technical documentation from existing",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "security"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

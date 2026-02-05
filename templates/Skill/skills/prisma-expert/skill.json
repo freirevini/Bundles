@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "id": "prisma-expert",
+  "title": "Prisma Expert",
+  "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "database",
+    "sql",
+    "devops",
+    "testing",
+    "typescript",
+    "aws"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

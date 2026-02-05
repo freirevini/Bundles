@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "trigger-dev",
+  "title": "Trigger.dev Integration",
+  "description": "\"Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. Use when: trigger.dev, trigger dev, background task, ai background job, long running task.\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "ai",
+    "typescript",
+    "llm"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

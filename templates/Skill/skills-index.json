@@ -1,0 +1,2821 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-05T17:37:21.410Z",
+  "total_skills": 195,
+  "sources": {
+    "skills": "templates/Skill/skills",
+    "categories": "templates/Skill/SkillCategorias",
+    "bundles": "templates/Skill/bundles"
+  },
+  "skills": [
+    {
+      "id": "agent-evaluation",
+      "title": "Agent Evaluation",
+      "description": "\"Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent.\"",
+      "path": "SkillCategorias/LLMAgenteArquiteto/agent-evaluation",
+      "tags": [
+        "testing",
+        "llm"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "ai-agents-architect",
+      "title": "AI Agents Architect",
+      "description": "\"Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build agent, AI agent, autonomous agent, tool use, function calling.\"",
+      "path": "SkillCategorias/LLMAgenteArquiteto/ai-agents-architect",
+      "tags": [
+        "ai",
+        "llm",
+        "api",
+        "react",
+        "javascript",
+        "rag",
+        "backend"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "ai-engineer",
+      "title": "Ai Engineer",
+      "description": "Build production-ready LLM applications, advanced RAG systems, and",
+      "path": "skills/ai-engineer",
+      "tags": [
+        "ai",
+        "llm",
+        "rag",
+        "ml",
+        "api",
+        "database",
+        "testing",
+        "fastapi"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "airflow-dag-patterns",
+      "title": "Apache Airflow DAG Patterns",
+      "description": "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.",
+      "path": "SkillCategorias/ExpertDBT/airflow-dag-patterns",
+      "tags": [
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "airflow-dag-patterns",
+      "title": "Apache Airflow DAG Patterns",
+      "description": "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.",
+      "path": "skills/airflow-dag-patterns",
+      "tags": [
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "analytics-tracking",
+      "title": "Analytics Tracking & Measurement Strategy",
+      "description": ">",
+      "path": "skills/analytics-tracking",
+      "tags": [
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "api-documentation-generator",
+      "title": "API Documentation Generator",
+      "description": "\"Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices\"",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertJson/api-documentation-generator",
+      "tags": [
+        "api",
+        "javascript",
+        "typescript",
+        "python",
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "api-documentation-generator",
+      "title": "API Documentation Generator",
+      "description": "\"Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices\"",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertXML/api-documentation-generator",
+      "tags": [
+        "api",
+        "javascript",
+        "typescript",
+        "python",
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "api-patterns",
+      "title": "API Patterns",
+      "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/api-patterns",
+      "tags": [
+        "api",
+        "security",
+        "typescript",
+        "testing",
+        "backend",
+        "database",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "api-patterns",
+      "title": "API Patterns",
+      "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertJson/api-patterns",
+      "tags": [
+        "api",
+        "security",
+        "typescript",
+        "testing",
+        "backend",
+        "database",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "api-patterns",
+      "title": "API Patterns",
+      "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertXML/api-patterns",
+      "tags": [
+        "api",
+        "security",
+        "typescript",
+        "testing",
+        "backend",
+        "database",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "api-security-best-practices",
+      "title": "API Security Best Practices",
+      "description": "\"Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities\"",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/api-security-best-practices",
+      "tags": [
+        "api",
+        "security",
+        "sql",
+        "testing",
+        "javascript",
+        "database",
+        "node",
+        "backend"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "async-python-patterns",
+      "title": "Async Python Patterns",
+      "description": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations.",
+      "path": "skills/async-python-patterns",
+      "tags": [
+        "python",
+        "fastapi",
+        "database",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "attack-tree-construction",
+      "title": "Attack Tree Construction",
+      "description": "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/attack-tree-construction",
+      "tags": [
+        "security",
+        "node"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "auth-implementation-patterns",
+      "title": "Authentication & Authorization Implementation Patterns",
+      "description": "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues.",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/auth-implementation-patterns",
+      "tags": [
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "autonomous-agents",
+      "title": "Autonomous Agents",
+      "description": "\"Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance. The challenge isn't making them capable - it's making them reliable. Every extra decision multiplies failure probability.  This skill covers agent loops (ReAct, Plan-Execute), goal decomposition, reflection patterns, and production reliability. Key insight: compounding error rates kill autonomous agents. A 95% success rate per step drops to 60% b\"",
+      "path": "SkillCategorias/LLMAgenteArquiteto/autonomous-agents",
+      "tags": [
+        "ai",
+        "react",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "backend-architect",
+      "title": "Backend Architect",
+      "description": "Expert backend architect specializing in scalable API design,",
+      "path": "skills/backend-architect",
+      "tags": [
+        "backend",
+        "api",
+        "frontend",
+        "testing",
+        "kubernetes",
+        "aws",
+        "azure",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "backend-dev-guidelines",
+      "title": "Backend Development Guidelines",
+      "description": "Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod validation, unifiedConfig, Sentry error tracking, async safety, and testing discipline.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/backend-dev-guidelines",
+      "tags": [
+        "backend",
+        "node",
+        "typescript",
+        "testing",
+        "database",
+        "frontend",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "backend-security-coder",
+      "title": "Backend Security Coder",
+      "description": "Expert in secure backend coding practices specializing in input",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/backend-security-coder",
+      "tags": [
+        "backend",
+        "security",
+        "api",
+        "database",
+        "testing",
+        "sql",
+        "javascript",
+        "docker"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "bash-linux",
+      "title": "Bash Linux Patterns",
+      "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+      "path": "skills/bash-linux",
+      "tags": [
+        "node",
+        "api",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "brainstorming",
+      "title": "Brainstorming Ideas Into Designs",
+      "description": ">",
+      "path": "SkillCategorias/Planejamento/brainstorming",
+      "tags": [
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "browser-automation",
+      "title": "Browser Automation",
+      "description": "\"Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns.  This skill covers Playwright (recommended) and Puppeteer, with patterns for testing, scraping, and agentic browser control. Key insight: Playwright won the framework war. Unless you need Puppeteer's stealth ecosystem or are Chrome-only, Playwright is the better choice in 202\"",
+      "path": "skills/browser-automation",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "bullmq-specialist",
+      "title": "BullMQ Specialist",
+      "description": "\"BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue.\"",
+      "path": "skills/bullmq-specialist",
+      "tags": [
+        "node",
+        "typescript",
+        "backend",
+        "ai"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "burp-suite-web-application-testing",
+      "title": "Burp Suite Web Application Testing",
+      "description": "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite's core features for web application security testing.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/burp-suite-testing",
+      "tags": [
+        "testing",
+        "security",
+        "sql",
+        "javascript"
+      ],
+      "priority": "normal",
+      "version": "\"1.1\""
+    },
+    {
+      "id": "business-analyst",
+      "title": "Business Analyst",
+      "description": "Master modern business analysis with AI-powered analytics,",
+      "path": "skills/business-analyst",
+      "tags": [
+        "ai",
+        "python",
+        "sql",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/ControledeQualidadeTestes/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/DesenvolvedorFullStack/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocMarkDown/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocTxt/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocWord/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/ExpertDBT/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/MestreWeb/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertJson/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertMarkDown/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertXML/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "SkillCategorias/Planejamento/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code - Pragmatic AI Coding Standards",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "path": "skills/clean-code",
+      "tags": [
+        "ai",
+        "typescript",
+        "frontend",
+        "python",
+        "backend",
+        "api",
+        "database",
+        "security"
+      ],
+      "priority": "CRITICAL",
+      "version": "2.0"
+    },
+    {
+      "id": "clickhouse-io",
+      "title": "ClickHouse Analytics Patterns",
+      "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
+      "path": "skills/cc-skill-clickhouse-io",
+      "tags": [
+        "database",
+        "sql",
+        "typescript"
+      ],
+      "priority": "normal",
+      "version": "\"1.0\""
+    },
+    {
+      "id": "cloud-architect",
+      "title": "Cloud Architect",
+      "description": "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud",
+      "path": "skills/cloud-architect",
+      "tags": [
+        "aws",
+        "azure",
+        "gcp",
+        "security",
+        "sql",
+        "database",
+        "typescript",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "cloud-penetration-testing",
+      "title": "Cloud Penetration Testing",
+      "description": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/cloud-penetration-testing",
+      "tags": [
+        "testing",
+        "azure",
+        "aws",
+        "gcp",
+        "security",
+        "api",
+        "devops",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "\"1.1\""
+    },
+    {
+      "id": "code-refactoring-refactor-clean",
+      "title": "Refactor and Clean Code",
+      "description": "\"You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.\"",
+      "path": "skills/code-refactoring-refactor-clean",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "code-refactoring-tech-debt",
+      "title": "Technical Debt Analysis and Remediation",
+      "description": "\"You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti\"",
+      "path": "skills/code-refactoring-tech-debt",
+      "tags": [
+        "api",
+        "security",
+        "testing",
+        "python",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "code-review-checklist",
+      "title": "Code Review Checklist",
+      "description": "\"Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability\"",
+      "path": "SkillCategorias/ControledeQualidadeTestes/code-review-checklist",
+      "tags": [
+        "security",
+        "testing",
+        "sql",
+        "database",
+        "javascript",
+        "api",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "code-review-checklist",
+      "title": "Code Review Checklist",
+      "description": "\"Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability\"",
+      "path": "skills/code-review-checklist",
+      "tags": [
+        "security",
+        "testing",
+        "sql",
+        "database",
+        "javascript",
+        "api",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "code-reviewer",
+      "title": "Code Reviewer",
+      "description": "Elite code review expert specializing in modern AI-powered code",
+      "path": "skills/code-reviewer",
+      "tags": [
+        "ai",
+        "security",
+        "sql",
+        "api",
+        "database",
+        "testing",
+        "kubernetes",
+        "javascript"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "concise-planning",
+      "title": "Concise Planning",
+      "description": "Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.",
+      "path": "SkillCategorias/Planejamento/concise-planning",
+      "tags": [
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "context-window-management",
+      "title": "Context Window Management",
+      "description": "\"Strategies for managing LLM context windows including summarization, trimming, routing, and avoiding context rot Use when: context window, token limit, context management, context engineering, long context.\"",
+      "path": "SkillCategorias/DesenvolvedordeAplicativosLLM/context-window-management",
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "context-window-management",
+      "title": "Context Window Management",
+      "description": "\"Strategies for managing LLM context windows including summarization, trimming, routing, and avoiding context rot Use when: context window, token limit, context management, context engineering, long context.\"",
+      "path": "SkillCategorias/LLMAgenteArquiteto/context-window-management",
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "conversation-memory",
+      "title": "Conversation Memory",
+      "description": "\"Persistent memory systems for LLM conversations including short-term, long-term, and entity-based memory Use when: conversation memory, remember, memory persistence, long-term memory, chat history.\"",
+      "path": "SkillCategorias/DesenvolvedordeAplicativosLLM/conversation-memory",
+      "tags": [
+        "llm",
+        "ai",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "data-engineer",
+      "title": "Data Engineer",
+      "description": "Build scalable data pipelines, modern data warehouses, and",
+      "path": "SkillCategorias/ExpertDBT/data-engineer",
+      "tags": [
+        "ml",
+        "sql",
+        "aws",
+        "azure",
+        "testing",
+        "python",
+        "kubernetes",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "data-engineer",
+      "title": "Data Engineer",
+      "description": "Build scalable data pipelines, modern data warehouses, and",
+      "path": "skills/data-engineer",
+      "tags": [
+        "ml",
+        "sql",
+        "aws",
+        "azure",
+        "testing",
+        "python",
+        "kubernetes",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "data-engineering-data-pipeline",
+      "title": "Data Pipeline Architecture",
+      "description": "\"You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.\"",
+      "path": "SkillCategorias/ExpertDBT/data-engineering-data-pipeline",
+      "tags": [
+        "python",
+        "docker"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "data-quality-frameworks",
+      "title": "Data Quality Frameworks",
+      "description": "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.",
+      "path": "SkillCategorias/ExpertDBT/data-quality-frameworks",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "data-quality-frameworks",
+      "title": "Data Quality Frameworks",
+      "description": "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.",
+      "path": "skills/data-quality-frameworks",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "description": "Expert data scientist for advanced analytics, machine learning, and",
+      "path": "skills/data-scientist",
+      "tags": [
+        "ml",
+        "testing",
+        "python",
+        "sql",
+        "database",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "data-storytelling",
+      "title": "Data Storytelling",
+      "description": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.",
+      "path": "skills/data-storytelling",
+      "tags": [
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "database-design",
+      "title": "Database Design",
+      "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/database-design",
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "database-design",
+      "title": "Database Design",
+      "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+      "path": "SkillCategorias/ExpertDBT/database-design",
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "database-design",
+      "title": "Database Design",
+      "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+      "path": "skills/database-design",
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "database-migration",
+      "title": "Database Migration",
+      "description": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies.",
+      "path": "SkillCategorias/ExpertDBT/database-migration",
+      "tags": [
+        "database",
+        "javascript",
+        "typescript",
+        "sql",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "database-migration",
+      "title": "Database Migration",
+      "description": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies.",
+      "path": "skills/database-migration",
+      "tags": [
+        "database",
+        "javascript",
+        "typescript",
+        "sql",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "database-optimizer",
+      "title": "Database Optimizer",
+      "description": "Expert database optimizer specializing in modern performance",
+      "path": "SkillCategorias/ExpertDBT/database-optimizer",
+      "tags": [
+        "database",
+        "sql",
+        "azure",
+        "django",
+        "api",
+        "aws",
+        "gcp",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "database-optimizer",
+      "title": "Database Optimizer",
+      "description": "Expert database optimizer specializing in modern performance",
+      "path": "skills/database-optimizer",
+      "tags": [
+        "database",
+        "sql",
+        "azure",
+        "django",
+        "api",
+        "aws",
+        "gcp",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "dbt-transformation-patterns",
+      "title": "dbt Transformation Patterns",
+      "description": "Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or implementing analytics engineering best practices.",
+      "path": "SkillCategorias/ExpertDBT/dbt-transformation-patterns",
+      "tags": [
+        "testing",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "dbt-transformation-patterns",
+      "title": "dbt Transformation Patterns",
+      "description": "Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or implementing analytics engineering best practices.",
+      "path": "skills/dbt-transformation-patterns",
+      "tags": [
+        "testing",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "debugger",
+      "title": "Debugger",
+      "description": "Debugging specialist for errors, test failures, and unexpected",
+      "path": "skills/debugger",
+      "tags": [
+        "debug",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "debugging-strategies",
+      "title": "Debugging Strategies",
+      "description": "Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance issues, or unexpected behavior.",
+      "path": "SkillCategorias/ControledeQualidadeTestes/debugging-strategies",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "debugging-strategies",
+      "title": "Debugging Strategies",
+      "description": "Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance issues, or unexpected behavior.",
+      "path": "skills/debugging-strategies",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "deployment-pipeline-design",
+      "title": "Deployment Pipeline Design",
+      "description": "Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use when architecting deployment workflows, setting up continuous delivery, or implementing GitOps practices.",
+      "path": "skills/deployment-pipeline-design",
+      "tags": [
+        "security",
+        "azure",
+        "kubernetes",
+        "testing",
+        "python",
+        "docker",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "django-pro",
+      "title": "Django Pro",
+      "description": "Master Django 5.x with async views, DRF, Celery, and Django",
+      "path": "skills/django-pro",
+      "tags": [
+        "django",
+        "testing",
+        "database",
+        "api",
+        "debug",
+        "security",
+        "sql",
+        "devops"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "doc-coauthoring",
+      "title": "Doc Co-Authoring Workflow",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocMarkDown/doc-coauthoring",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "doc-coauthoring",
+      "title": "Doc Co-Authoring Workflow",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocTxt/doc-coauthoring",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "doc-coauthoring",
+      "title": "Doc Co-Authoring Workflow",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocWord/doc-coauthoring",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "doc-coauthoring",
+      "title": "Doc Co-Authoring Workflow",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertMarkDown/doc-coauthoring",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "docs-architect",
+      "title": "Docs Architect",
+      "description": "Creates comprehensive technical documentation from existing",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocMarkDown/docs-architect",
+      "tags": [
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "documentation-templates",
+      "title": "Documentation Templates",
+      "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocMarkDown/documentation-templates",
+      "tags": [
+        "api",
+        "ai",
+        "typescript",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "documentation-templates",
+      "title": "Documentation Templates",
+      "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocTxt/documentation-templates",
+      "tags": [
+        "api",
+        "ai",
+        "typescript",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "documentation-templates",
+      "title": "Documentation Templates",
+      "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertJson/documentation-templates",
+      "tags": [
+        "api",
+        "ai",
+        "typescript",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "documentation-templates",
+      "title": "Documentation Templates",
+      "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertMarkDown/documentation-templates",
+      "tags": [
+        "api",
+        "ai",
+        "typescript",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "documentation-templates",
+      "title": "Documentation Templates",
+      "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertXML/documentation-templates",
+      "tags": [
+        "api",
+        "ai",
+        "typescript",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "documentation-templates",
+      "title": "Documentation Templates",
+      "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+      "path": "SkillCategorias/Planejamento/documentation-templates",
+      "tags": [
+        "api",
+        "ai",
+        "typescript",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "docx",
+      "title": "DOCX creation, editing, and analysis",
+      "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\"",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocWord/docx-official",
+      "tags": [
+        "python",
+        "javascript",
+        "typescript",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "docx",
+      "title": "DOCX creation, editing, and analysis",
+      "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\"",
+      "path": "skills/docx-official",
+      "tags": [
+        "python",
+        "javascript",
+        "typescript",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "email-sequence",
+      "title": "Email Sequence Design",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or \"lifecycle emails.\" For in-app onboarding, see onboarding-cro.",
+      "path": "skills/email-sequence",
+      "tags": [
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "email-systems",
+      "title": "Email Systems",
+      "description": "\"Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill covers transactional email that works, marketing automation that converts, deliverability that reaches inboxes, and the infrastructure decisions that scale. Use when: keywords, file_patterns, code_patterns.\"",
+      "path": "skills/email-systems",
+      "tags": [
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "embedding-strategies",
+      "title": "Embedding Strategies",
+      "description": "Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains.",
+      "path": "skills/embedding-strategies",
+      "tags": [
+        "rag",
+        "api",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "error-handling-patterns",
+      "title": "Error Handling Patterns",
+      "description": "Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or improving application reliability.",
+      "path": "SkillCategorias/ControledeQualidadeTestes/error-handling-patterns",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "error-handling-patterns",
+      "title": "Error Handling Patterns",
+      "description": "Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or improving application reliability.",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/error-handling-patterns",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "error-handling-patterns",
+      "title": "Error Handling Patterns",
+      "description": "Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or improving application reliability.",
+      "path": "skills/error-handling-patterns",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "ethical-hacking-methodology",
+      "title": "Ethical Hacking Methodology",
+      "description": "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/ethical-hacking-methodology",
+      "tags": [
+        "testing",
+        "security",
+        "database",
+        "api",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "\"1.1\""
+    },
+    {
+      "id": "fastapi-pro",
+      "title": "Fastapi Pro",
+      "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and",
+      "path": "skills/fastapi-pro",
+      "tags": [
+        "fastapi",
+        "python",
+        "api",
+        "database",
+        "security",
+        "sql",
+        "testing",
+        "devops"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "fastapi-templates",
+      "title": "FastAPI Project Templates",
+      "description": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.",
+      "path": "skills/fastapi-templates",
+      "tags": [
+        "fastapi",
+        "backend",
+        "api",
+        "python",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "file-organizer",
+      "title": "File Organizer",
+      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. Use when user wants to clean up directories, organize downloads, remove duplicates, or restructure projects.",
+      "path": "skills/file-organizer",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "firecrawl-scraper",
+      "title": "firecrawl-scraper",
+      "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API",
+      "path": "skills/firecrawl-scraper",
+      "tags": [
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "form-cro",
+      "title": "Form Conversion Rate Optimization (Form CRO)",
+      "description": ">",
+      "path": "SkillCategorias/MestreWeb/form-cro",
+      "tags": [
+        "testing",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "frontend-design",
+      "title": "Frontend Design (Distinctive, Production-Grade)",
+      "description": "Create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.",
+      "path": "SkillCategorias/MestreWeb/frontend-design",
+      "tags": [
+        "frontend",
+        "ai",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "frontend-developer",
+      "title": "Frontend Developer",
+      "description": "Build React components, implement responsive layouts, and handle",
+      "path": "SkillCategorias/DesenvolvedorFullStack/frontend-developer",
+      "tags": [
+        "frontend",
+        "react",
+        "backend",
+        "api",
+        "testing",
+        "typescript",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "frontend-security-coder",
+      "title": "Frontend Security Coder",
+      "description": "Expert in secure frontend coding practices specializing in XSS",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/frontend-security-coder",
+      "tags": [
+        "frontend",
+        "security",
+        "testing",
+        "javascript",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "gdpr-data-handling",
+      "title": "GDPR Data Handling",
+      "description": "Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, or conducting GDPR compliance reviews.",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/gdpr-data-handling",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "github-actions-templates",
+      "title": "GitHub Actions Templates",
+      "description": "Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflow templates.",
+      "path": "skills/github-actions-templates",
+      "tags": [
+        "testing",
+        "docker",
+        "kubernetes",
+        "security",
+        "node",
+        "aws",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "grafana-dashboards",
+      "title": "Grafana Dashboards",
+      "description": "Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces.",
+      "path": "skills/grafana-dashboards",
+      "tags": [
+        "api",
+        "node",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "incident-runbook-templates",
+      "title": "Incident Runbook Templates",
+      "description": "Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use when building runbooks, responding to incidents, or establishing incident response procedures.",
+      "path": "skills/incident-runbook-templates",
+      "tags": [
+        "api",
+        "database",
+        "kubernetes",
+        "security",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "inngest",
+      "title": "Inngest Integration",
+      "description": "\"Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers. Use when: inngest, serverless background job, event-driven workflow, step function, durable execution.\"",
+      "path": "skills/inngest",
+      "tags": [
+        "ai",
+        "backend"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "kaizen",
+      "title": "Kaizen: Continuous Improvement",
+      "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+      "path": "SkillCategorias/Planejamento/kaizen",
+      "tags": [
+        "typescript",
+        "ai",
+        "api",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "kaizen",
+      "title": "Kaizen: Continuous Improvement",
+      "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+      "path": "skills/kaizen",
+      "tags": [
+        "typescript",
+        "ai",
+        "api",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "kpi-dashboard-design",
+      "title": "KPI Dashboard Design",
+      "description": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboards, selecting metrics, or designing data visualization layouts.",
+      "path": "skills/kpi-dashboard-design",
+      "tags": [
+        "api",
+        "database",
+        "sql",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "langchain-architecture",
+      "title": "LangChain Architecture",
+      "description": "Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.",
+      "path": "skills/langchain-architecture",
+      "tags": [
+        "llm",
+        "ai",
+        "react",
+        "api",
+        "python",
+        "rag",
+        "database",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "langfuse",
+      "title": "Langfuse",
+      "description": "\"Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production. Use when: langfuse, llm observability, llm tracing, prompt management, llm evaluation.\"",
+      "path": "SkillCategorias/DesenvolvedordeAplicativosLLM/langfuse",
+      "tags": [
+        "llm",
+        "testing",
+        "python",
+        "typescript",
+        "javascript",
+        "api",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "langgraph",
+      "title": "LangGraph",
+      "description": "\"Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern. Used in production at LinkedIn, Uber, and 400+ companies. This is LangChain's recommended approach for building agents. Use when: langgraph, langchain agent, stateful agent, agent graph, react agent.\"",
+      "path": "SkillCategorias/LLMAgenteArquiteto/langgraph",
+      "tags": [
+        "ai",
+        "react",
+        "node",
+        "python",
+        "llm",
+        "api",
+        "typescript"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "lint-and-validate",
+      "title": "Lint and Validate Skill",
+      "description": "\"Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.\"",
+      "path": "SkillCategorias/Planejamento/lint-and-validate",
+      "tags": [
+        "node",
+        "typescript",
+        "security",
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "linux-privilege-escalation",
+      "title": "Linux Privilege Escalation",
+      "description": "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs for root access\", \"enumerate Linux systems for privilege escalation\", or \"gain root access from low-privilege shell\". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/linux-privilege-escalation",
+      "tags": [
+        "security",
+        "python",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "\"1.1\""
+    },
+    {
+      "id": "llm-app-patterns",
+      "title": "🤖 LLM Application Patterns",
+      "description": "\"Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability.\"",
+      "path": "SkillCategorias/DesenvolvedordeAplicativosLLM/llm-app-patterns",
+      "tags": [
+        "llm",
+        "rag",
+        "ai",
+        "python",
+        "database",
+        "api",
+        "sql",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "llm-app-patterns",
+      "title": "🤖 LLM Application Patterns",
+      "description": "\"Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability.\"",
+      "path": "skills/llm-app-patterns",
+      "tags": [
+        "llm",
+        "rag",
+        "ai",
+        "python",
+        "database",
+        "api",
+        "sql",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "llm-evaluation",
+      "title": "LLM Evaluation",
+      "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks.",
+      "path": "SkillCategorias/DesenvolvedordeAplicativosLLM/llm-evaluation",
+      "tags": [
+        "llm",
+        "testing",
+        "ai",
+        "rag",
+        "python",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "llm-evaluation",
+      "title": "LLM Evaluation",
+      "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks.",
+      "path": "skills/llm-evaluation",
+      "tags": [
+        "llm",
+        "testing",
+        "ai",
+        "rag",
+        "python",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "mcp-builder",
+      "title": "MCP Server Development Guide",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "path": "SkillCategorias/LLMAgenteArquiteto/mcp-builder",
+      "tags": [
+        "python",
+        "node",
+        "typescript",
+        "api",
+        "ai",
+        "testing",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "mermaid-expert",
+      "title": "Mermaid Expert",
+      "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocMarkDown/mermaid-expert",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "mermaid-expert",
+      "title": "Mermaid Expert",
+      "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertMarkDown/mermaid-expert",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "ml-engineer",
+      "title": "Ml Engineer",
+      "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and",
+      "path": "skills/ml-engineer",
+      "tags": [
+        "ml",
+        "testing",
+        "llm",
+        "docker",
+        "kubernetes",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "ml-pipeline-workflow",
+      "title": "ML Pipeline Workflow",
+      "description": "Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows.",
+      "path": "skills/ml-pipeline-workflow",
+      "tags": [
+        "ml",
+        "testing",
+        "python",
+        "kubernetes",
+        "aws",
+        "ai",
+        "gcp",
+        "azure"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "mlops-engineer",
+      "title": "Mlops Engineer",
+      "description": "Build comprehensive ML pipelines, experiment tracking, and model",
+      "path": "skills/mlops-engineer",
+      "tags": [
+        "ml",
+        "kubernetes",
+        "azure",
+        "aws",
+        "docker",
+        "devops",
+        "gcp",
+        "ai"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "nextjs-best-practices",
+      "title": "Next.js Best Practices",
+      "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
+      "path": "SkillCategorias/MestreWeb/nextjs-best-practices",
+      "tags": [
+        "database",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "nodejs-best-practices",
+      "title": "Node.js Best Practices",
+      "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/nodejs-best-practices",
+      "tags": [
+        "node",
+        "security",
+        "api",
+        "frontend",
+        "typescript",
+        "database",
+        "react",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "nosql-expert",
+      "title": "NoSQL Expert Patterns (Cassandra & DynamoDB)",
+      "description": "\"Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.\"",
+      "path": "skills/nosql-expert",
+      "tags": [
+        "sql",
+        "node",
+        "database",
+        "aws"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "on-call-handoff-patterns",
+      "title": "On-Call Handoff Patterns",
+      "description": "Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting shift summaries, or improving on-call processes.",
+      "path": "skills/on-call-handoff-patterns",
+      "tags": [
+        "api",
+        "database",
+        "security",
+        "kubernetes"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "openapi-spec-generation",
+      "title": "OpenAPI Spec Generation",
+      "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertJson/openapi-spec-generation",
+      "tags": [
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "openapi-spec-generation",
+      "title": "OpenAPI Spec Generation",
+      "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertXML/openapi-spec-generation",
+      "tags": [
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "pci-compliance",
+      "title": "PCI Compliance",
+      "description": "Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card security measures.",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/pci-compliance",
+      "tags": [
+        "security",
+        "python",
+        "frontend",
+        "javascript",
+        "database",
+        "django",
+        "api",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "pdf",
+      "title": "PDF Processing Guide",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "path": "skills/pdf-official",
+      "tags": [
+        "python",
+        "javascript"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "playwright-skill",
+      "title": "Playwright Browser Automation",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "path": "skills/playwright-skill",
+      "tags": [
+        "testing",
+        "node",
+        "javascript",
+        "backend",
+        "llm",
+        "debug",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "postgresql",
+      "title": "PostgreSQL Table Design",
+      "description": "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+      "path": "SkillCategorias/DesenvolvedorFullStack/postgresql",
+      "tags": [
+        "database",
+        "sql",
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "postgresql",
+      "title": "PostgreSQL Table Design",
+      "description": "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+      "path": "SkillCategorias/ExpertDBT/postgresql",
+      "tags": [
+        "database",
+        "sql",
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "postgresql",
+      "title": "PostgreSQL Table Design",
+      "description": "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+      "path": "skills/postgresql",
+      "tags": [
+        "database",
+        "sql",
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "powershell-windows",
+      "title": "PowerShell Windows Patterns",
+      "description": "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.",
+      "path": "skills/powershell-windows",
+      "tags": [],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "pptx",
+      "title": "PPTX creation, editing, and analysis",
+      "description": "\"Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks\"",
+      "path": "skills/pptx-official",
+      "tags": [
+        "python",
+        "javascript",
+        "api",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "prisma-expert",
+      "title": "Prisma Expert",
+      "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues.",
+      "path": "skills/prisma-expert",
+      "tags": [
+        "database",
+        "sql",
+        "devops",
+        "testing",
+        "typescript",
+        "aws"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "prompt-caching",
+      "title": "Prompt Caching",
+      "description": "\"Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and CAG (Cache Augmented Generation) Use when: prompt caching, cache prompt, response cache, cag, cache augmented.\"",
+      "path": "SkillCategorias/DesenvolvedordeAplicativosLLM/prompt-caching",
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "prompt-engineering",
+      "title": "Prompt Engineering Patterns",
+      "description": "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.",
+      "path": "SkillCategorias/LLMAgenteArquiteto/prompt-engineering",
+      "tags": [
+        "debug",
+        "llm",
+        "testing",
+        "python",
+        "security",
+        "sql",
+        "backend",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "prompt-engineering-patterns",
+      "title": "Prompt Engineering Patterns",
+      "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.",
+      "path": "SkillCategorias/LLMAgenteArquiteto/prompt-engineering-patterns",
+      "tags": [
+        "llm",
+        "ai",
+        "testing",
+        "python",
+        "sql",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "prompt-engineering-patterns",
+      "title": "Prompt Engineering Patterns",
+      "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.",
+      "path": "skills/prompt-engineering-patterns",
+      "tags": [
+        "llm",
+        "ai",
+        "testing",
+        "python",
+        "sql",
+        "rag"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-packaging",
+      "title": "Python Packaging",
+      "description": "Create distributable Python packages with proper project structure, setup.py/pyproject.toml, and publishing to PyPI. Use when packaging Python libraries, creating CLI tools, or distributing Python code.",
+      "path": "skills/python-packaging",
+      "tags": [
+        "python"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-patterns",
+      "title": "Python Patterns",
+      "description": "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.",
+      "path": "SkillCategorias/ExpertDBT/python-patterns",
+      "tags": [
+        "python",
+        "api",
+        "fastapi",
+        "django",
+        "ai",
+        "ml",
+        "database",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-patterns",
+      "title": "Python Patterns",
+      "description": "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.",
+      "path": "skills/python-patterns",
+      "tags": [
+        "python",
+        "api",
+        "fastapi",
+        "django",
+        "ai",
+        "ml",
+        "database",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-performance-optimization",
+      "title": "Python Performance Optimization",
+      "description": "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.",
+      "path": "skills/python-performance-optimization",
+      "tags": [
+        "python",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-pro",
+      "title": "Python Pro",
+      "description": "Master Python 3.12+ with modern features, async programming,",
+      "path": "SkillCategorias/ExpertDBT/python-pro",
+      "tags": [
+        "python",
+        "fastapi",
+        "testing",
+        "database",
+        "django",
+        "ml",
+        "devops",
+        "docker"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-pro",
+      "title": "Python Pro",
+      "description": "Master Python 3.12+ with modern features, async programming,",
+      "path": "skills/python-pro",
+      "tags": [
+        "python",
+        "fastapi",
+        "testing",
+        "database",
+        "django",
+        "ml",
+        "devops",
+        "docker"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-testing-patterns",
+      "title": "Python Testing Patterns",
+      "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
+      "path": "SkillCategorias/ControledeQualidadeTestes/python-testing-patterns",
+      "tags": [
+        "python",
+        "testing",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "python-testing-patterns",
+      "title": "Python Testing Patterns",
+      "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
+      "path": "skills/python-testing-patterns",
+      "tags": [
+        "python",
+        "testing",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "rag-engineer",
+      "title": "RAG Engineer",
+      "description": "\"Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, vector search, embeddings, semantic search, document retrieval.\"",
+      "path": "SkillCategorias/LLMAgenteArquiteto/rag-engineer",
+      "tags": [
+        "rag",
+        "llm",
+        "javascript",
+        "ai",
+        "database",
+        "backend"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "rag-engineer",
+      "title": "RAG Engineer",
+      "description": "\"Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, vector search, embeddings, semantic search, document retrieval.\"",
+      "path": "skills/rag-engineer",
+      "tags": [
+        "rag",
+        "llm",
+        "javascript",
+        "ai",
+        "database",
+        "backend"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "rag-implementation",
+      "title": "RAG Implementation",
+      "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.",
+      "path": "SkillCategorias/DesenvolvedordeAplicativosLLM/rag-implementation",
+      "tags": [
+        "rag",
+        "llm",
+        "ai",
+        "api",
+        "python",
+        "gcp"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "rag-implementation",
+      "title": "RAG Implementation",
+      "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.",
+      "path": "skills/rag-implementation",
+      "tags": [
+        "rag",
+        "llm",
+        "ai",
+        "api",
+        "python",
+        "gcp"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "react-patterns",
+      "title": "React Patterns",
+      "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/react-patterns",
+      "tags": [
+        "react",
+        "typescript",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "react-patterns",
+      "title": "React Patterns",
+      "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+      "path": "SkillCategorias/MestreWeb/react-patterns",
+      "tags": [
+        "react",
+        "typescript",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "readme",
+      "title": "README Generator",
+      "description": "\"When the user wants to create or update a README.md file for a project. Also use when the user says 'write readme,' 'create readme,' 'document this project,' 'project documentation,' or asks for help with README.md. This skill creates absurdly thorough documentation covering local setup, architecture, and deployment.\"",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocMarkDown/readme",
+      "tags": [
+        "database",
+        "docker",
+        "sql",
+        "javascript",
+        "aws",
+        "kubernetes",
+        "frontend",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "readme",
+      "title": "README Generator",
+      "description": "\"When the user wants to create or update a README.md file for a project. Also use when the user says 'write readme,' 'create readme,' 'document this project,' 'project documentation,' or asks for help with README.md. This skill creates absurdly thorough documentation covering local setup, architecture, and deployment.\"",
+      "path": "SkillCategorias/OutrasLinguagens/ExpertMarkDown/readme",
+      "tags": [
+        "database",
+        "docker",
+        "sql",
+        "javascript",
+        "aws",
+        "kubernetes",
+        "frontend",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "red-team-tactics",
+      "title": "Red Team Tactics",
+      "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/red-team-tactics",
+      "tags": [
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "reference-builder",
+      "title": "Reference Builder",
+      "description": "Creates exhaustive technical references and API documentation.",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocTxt/reference-builder",
+      "tags": [
+        "api",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "reference-builder",
+      "title": "Reference Builder",
+      "description": "Creates exhaustive technical references and API documentation.",
+      "path": "SkillCategorias/DocumentarProjetos/ExpertCriarEditarDocWord/reference-builder",
+      "tags": [
+        "api",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "sast-configuration",
+      "title": "SAST Configuration",
+      "description": "Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code. Use when setting up security scanning, implementing DevSecOps practices, or automating code vulnerability detection.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/sast-configuration",
+      "tags": [
+        "security",
+        "testing",
+        "python",
+        "javascript",
+        "docker",
+        "database",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "secrets-management",
+      "title": "Secrets Management",
+      "description": "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments.",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/secrets-management",
+      "tags": [
+        "aws",
+        "api",
+        "database",
+        "backend",
+        "azure",
+        "gcp",
+        "python",
+        "kubernetes"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "security-auditor",
+      "title": "Security Auditor",
+      "description": "Expert security auditor specializing in DevSecOps, comprehensive",
+      "path": "SkillCategorias/EngenheirodeSeguranca/security-auditor",
+      "tags": [
+        "security",
+        "testing",
+        "kubernetes",
+        "api",
+        "aws",
+        "azure",
+        "gcp",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "security-review",
+      "title": "Security Review Skill",
+      "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+      "path": "SkillCategorias/DesenvolvedordeSeguranca/cc-skill-security-review",
+      "tags": [
+        "security",
+        "api",
+        "typescript",
+        "sql",
+        "database",
+        "react",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "\"1.0\""
+    },
+    {
+      "id": "senior-fullstack",
+      "title": "Senior Fullstack",
+      "description": "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/senior-fullstack",
+      "tags": [
+        "react",
+        "node",
+        "python",
+        "security",
+        "typescript",
+        "javascript",
+        "frontend",
+        "backend"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "seo-audit",
+      "title": "SEO Audit",
+      "description": ">",
+      "path": "SkillCategorias/MestreWeb/seo-audit",
+      "tags": [
+        "javascript",
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "spark-optimization",
+      "title": "Apache Spark Optimization",
+      "description": "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.",
+      "path": "SkillCategorias/ExpertDBT/spark-optimization",
+      "tags": [
+        "python",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "spark-optimization",
+      "title": "Apache Spark Optimization",
+      "description": "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.",
+      "path": "skills/spark-optimization",
+      "tags": [
+        "python",
+        "sql"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "sql-optimization-patterns",
+      "title": "SQL Optimization Patterns",
+      "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.",
+      "path": "SkillCategorias/ExpertDBT/sql-optimization-patterns",
+      "tags": [
+        "sql",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "sql-optimization-patterns",
+      "title": "SQL Optimization Patterns",
+      "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.",
+      "path": "skills/sql-optimization-patterns",
+      "tags": [
+        "sql",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "sql-pro",
+      "title": "Sql Pro",
+      "description": "Master modern SQL with cloud-native databases, OLTP/OLAP",
+      "path": "SkillCategorias/ExpertDBT/sql-pro",
+      "tags": [
+        "sql",
+        "database",
+        "azure",
+        "security",
+        "devops",
+        "testing",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "sql-pro",
+      "title": "Sql Pro",
+      "description": "Master modern SQL with cloud-native databases, OLTP/OLAP",
+      "path": "skills/sql-pro",
+      "tags": [
+        "sql",
+        "database",
+        "azure",
+        "security",
+        "devops",
+        "testing",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "stripe-integration",
+      "title": "Stripe Integration",
+      "description": "Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/stripe-integration",
+      "tags": [
+        "python",
+        "frontend",
+        "javascript",
+        "database",
+        "testing",
+        "security",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "systematic-debugging",
+      "title": "Systematic Debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "path": "SkillCategorias/ControledeQualidadeTestes/systematic-debugging",
+      "tags": [
+        "api",
+        "database",
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "systematic-debugging",
+      "title": "Systematic Debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "path": "skills/systematic-debugging",
+      "tags": [
+        "api",
+        "database",
+        "security",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "tailwind-patterns",
+      "title": "Tailwind CSS Patterns (v4 - 2025)",
+      "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+      "path": "SkillCategorias/MestreWeb/tailwind-patterns",
+      "tags": [
+        "javascript",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "temporal-python-pro",
+      "title": "Temporal Python Pro",
+      "description": "Master Temporal workflow orchestration with Python SDK. Implements",
+      "path": "skills/temporal-python-pro",
+      "tags": [
+        "python",
+        "testing",
+        "api",
+        "database",
+        "ml",
+        "docker",
+        "kubernetes"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "test-driven-development",
+      "title": "Test-Driven Development (TDD)",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "path": "SkillCategorias/ControledeQualidadeTestes/test-driven-development",
+      "tags": [
+        "typescript",
+        "testing",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "test-fixing",
+      "title": "Test Fixing",
+      "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
+      "path": "SkillCategorias/ControledeQualidadeTestes/test-fixing",
+      "tags": [
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "testing-patterns",
+      "title": "Testing Patterns and Utilities",
+      "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
+      "path": "SkillCategorias/DesenvolvedorFullStack/testing-patterns",
+      "tags": [
+        "testing",
+        "typescript",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "testing-patterns",
+      "title": "Testing Patterns and Utilities",
+      "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
+      "path": "SkillCategorias/ExpertDBT/testing-patterns",
+      "tags": [
+        "testing",
+        "typescript",
+        "react"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "threat-modeling-expert",
+      "title": "Threat Modeling Expert",
+      "description": "\"Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use for security architecture reviews, threat identification, and secure-by-design planning.\"",
+      "path": "SkillCategorias/EngenheirodeSeguranca/threat-modeling-expert",
+      "tags": [
+        "security"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "tool-design",
+      "title": "Tool Design for Agents",
+      "description": "\"Build tools that agents can use effectively, including architectural reduction patterns\"",
+      "path": "SkillCategorias/LLMAgenteArquiteto/tool-design",
+      "tags": [
+        "api",
+        "database",
+        "python",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "top-100-web-vulnerabilities-reference",
+      "title": "Top 100 Web Vulnerabilities Reference",
+      "description": "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/top-web-vulnerabilities",
+      "tags": [
+        "security",
+        "api",
+        "javascript",
+        "sql",
+        "testing",
+        "database",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "\"1.1\""
+    },
+    {
+      "id": "trigger-dev",
+      "title": "Trigger.dev Integration",
+      "description": "\"Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. Use when: trigger.dev, trigger dev, background task, ai background job, long running task.\"",
+      "path": "skills/trigger-dev",
+      "tags": [
+        "ai",
+        "typescript",
+        "llm"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "typescript-expert",
+      "title": "TypeScript Expert",
+      "description": ">-",
+      "path": "SkillCategorias/DesenvolvedorFullStack/typescript-expert",
+      "tags": [
+        "typescript",
+        "javascript",
+        "node",
+        "api",
+        "ai",
+        "testing",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "typescript-expert",
+      "title": "TypeScript Expert",
+      "description": ">-",
+      "path": "SkillCategorias/MestreWeb/typescript-expert",
+      "tags": [
+        "typescript",
+        "javascript",
+        "node",
+        "api",
+        "ai",
+        "testing",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "title": "Vercel React Best Practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "path": "SkillCategorias/MestreWeb/react-best-practices",
+      "tags": [
+        "react",
+        "javascript",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "vulnerability-scanner",
+      "title": "Vulnerability Scanner",
+      "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
+      "path": "SkillCategorias/EngenheirodeSeguranca/vulnerability-scanner",
+      "tags": [
+        "security",
+        "python",
+        "api"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "wcag-audit-patterns",
+      "title": "WCAG Audit Patterns",
+      "description": "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.",
+      "path": "SkillCategorias/MestreWeb/wcag-audit-patterns",
+      "tags": [
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "web-performance-optimization",
+      "title": "Web Performance Optimization",
+      "description": "\"Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance\"",
+      "path": "SkillCategorias/MestreWeb/web-performance-optimization",
+      "tags": [
+        "javascript",
+        "database",
+        "api",
+        "react",
+        "frontend",
+        "debug"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "webapp-testing",
+      "title": "Web Application Testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "path": "skills/webapp-testing",
+      "tags": [
+        "testing",
+        "frontend",
+        "python",
+        "backend"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "workflow-automation",
+      "title": "Workflow Automation",
+      "description": "\"Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost money and angry customers. With it, workflows resume exactly where they left off.  This skill covers the platforms (n8n, Temporal, Inngest) and patterns (sequential, parallel, orchestrator-worker) that turn brittle scripts into production-grade automation.  Key insight: The platforms make different tradeoffs. n8n optimizes for accessibility\"",
+      "path": "skills/workflow-automation",
+      "tags": [
+        "ai",
+        "backend",
+        "devops"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "workflow-orchestration-patterns",
+      "title": "Workflow Orchestration Patterns",
+      "description": "Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration.",
+      "path": "skills/workflow-orchestration-patterns",
+      "tags": [
+        "api",
+        "database"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    },
+    {
+      "id": "xlsx",
+      "title": "Requirements for Outputs",
+      "description": "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas\"",
+      "path": "skills/xlsx-official",
+      "tags": [
+        "python",
+        "testing"
+      ],
+      "priority": "normal",
+      "version": "1.0"
+    }
+  ]
+}

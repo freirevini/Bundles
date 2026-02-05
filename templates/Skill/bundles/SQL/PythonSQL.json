@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "id": "pythonsql",
+  "title": "PythonSQL",
+  "category": "SQL",
+  "description": "Bundle de skills para PythonSQL",
+  "skills": [
+    "clean-code",
+    "database-design",
+    "database-migration",
+    "postgresql",
+    "python-pro",
+    "sql-pro"
+  ],
+  "total_skills": 6,
+  "author": "freirevini"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "id": "lint-and-validate",
+  "title": "Lint and Validate Skill",
+  "description": "\"Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "node",
+    "typescript",
+    "security",
+    "python"
+  ],
+  "tools": [
+    "Read",
+    "Glob",
+    "Grep",
+    "Bash"
+  ],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

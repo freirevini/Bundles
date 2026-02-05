@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "id": "frontend-security-coder",
+  "title": "Frontend Security Coder",
+  "description": "Expert in secure frontend coding practices specializing in XSS",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "frontend",
+    "security",
+    "testing",
+    "javascript",
+    "api"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "pythonautomocaorpa",
+  "title": "PythonAutomocaoRPA",
+  "category": "Python",
+  "description": "Bundle de skills para PythonAutomocaoRPA",
+  "skills": [
+    "async-python-patterns",
+    "bash-linux",
+    "browser-automation",
+    "error-handling-patterns",
+    "file-organizer",
+    "firecrawl-scraper",
+    "playwright-skill",
+    "powershell-windows",
+    "python-patterns",
+    "python-pro",
+    "webapp-testing"
+  ],
+  "total_skills": 11,
+  "author": "freirevini"
+}

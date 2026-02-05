@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "pythonemail",
+  "title": "PythonEmail",
+  "category": "Python",
+  "description": "Bundle de skills para PythonEmail",
+  "skills": [
+    "analytics-tracking",
+    "data-storytelling",
+    "docx-official",
+    "email-sequence",
+    "email-systems",
+    "grafana-dashboards",
+    "kpi-dashboard-design",
+    "pdf-official",
+    "pptx-official",
+    "python-patterns",
+    "python-pro",
+    "xlsx-official"
+  ],
+  "total_skills": 12,
+  "author": "freirevini"
+}

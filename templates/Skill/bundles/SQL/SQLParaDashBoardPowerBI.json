@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "sqlparadashboardpowerbi",
+  "title": "SQLParaDashBoardPowerBI",
+  "category": "SQL",
+  "description": "Bundle de skills para SQLParaDashBoardPowerBI",
+  "skills": [
+    "analytics-tracking",
+    "clean-code",
+    "data-storytelling",
+    "database-design",
+    "grafana-dashboards",
+    "kpi-dashboard-design",
+    "sql-pro"
+  ],
+  "total_skills": 7,
+  "author": "freirevini"
+}

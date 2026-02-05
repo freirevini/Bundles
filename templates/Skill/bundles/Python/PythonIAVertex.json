@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "id": "pythoniavertex",
+  "title": "PythonIAVertex",
+  "category": "Python",
+  "description": "Bundle de skills para PythonIAVertex",
+  "skills": [
+    "ai-engineer",
+    "clean-code",
+    "langchain-architecture",
+    "llm-app-patterns",
+    "prompt-engineering-patterns",
+    "python-patterns",
+    "python-pro",
+    "rag-engineer",
+    "rag-implementation"
+  ],
+  "total_skills": 9,
+  "author": "freirevini"
+}

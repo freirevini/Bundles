@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "stripe-integration",
+  "title": "Stripe Integration",
+  "description": "Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "python",
+    "frontend",
+    "javascript",
+    "database",
+    "testing",
+    "security",
+    "api"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

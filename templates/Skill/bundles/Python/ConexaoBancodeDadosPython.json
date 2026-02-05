@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "id": "conexaobancodedadospython",
+  "title": "ConexaoBancodeDadosPython",
+  "category": "Python",
+  "description": "Bundle de skills para ConexaoBancodeDadosPython",
+  "skills": [
+    "clean-code",
+    "database-design",
+    "database-migration",
+    "database-optimizer",
+    "postgresql",
+    "prisma-expert",
+    "python-patterns",
+    "python-pro"
+  ],
+  "total_skills": 8,
+  "author": "freirevini"
+}

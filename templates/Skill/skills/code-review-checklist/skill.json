@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "code-review-checklist",
+  "title": "Code Review Checklist",
+  "description": "\"Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "security",
+    "testing",
+    "sql",
+    "database",
+    "javascript",
+    "api",
+    "debug"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

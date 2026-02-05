@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "sast-configuration",
+  "title": "SAST Configuration",
+  "description": "Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code. Use when setting up security scanning, implementing DevSecOps practices, or automating code vulnerability detection.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "security",
+    "testing",
+    "python",
+    "javascript",
+    "docker",
+    "database",
+    "api"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

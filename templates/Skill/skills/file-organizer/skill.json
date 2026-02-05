@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "file-organizer",
+  "title": "File Organizer",
+  "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. Use when user wants to clean up directories, organize downloads, remove duplicates, or restructure projects.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "id": "rag-implementation",
+  "title": "RAG Implementation",
+  "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "rag",
+    "llm",
+    "ai",
+    "api",
+    "python",
+    "gcp"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

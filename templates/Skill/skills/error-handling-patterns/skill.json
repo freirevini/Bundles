@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "error-handling-patterns",
+  "title": "Error Handling Patterns",
+  "description": "Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or improving application reliability.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

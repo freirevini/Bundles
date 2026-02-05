@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "code-refactoring-refactor-clean",
+  "title": "Refactor and Clean Code",
+  "description": "\"You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

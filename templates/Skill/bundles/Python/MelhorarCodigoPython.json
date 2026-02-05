@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "id": "melhorarcodigopython",
+  "title": "MelhorarCodigoPython",
+  "category": "Python",
+  "description": "Bundle de skills para MelhorarCodigoPython",
+  "skills": [
+    "clean-code",
+    "code-refactoring-refactor-clean",
+    "code-refactoring-tech-debt",
+    "code-review-checklist",
+    "code-reviewer",
+    "kaizen",
+    "python-patterns",
+    "python-pro"
+  ],
+  "total_skills": 8,
+  "author": "freirevini"
+}

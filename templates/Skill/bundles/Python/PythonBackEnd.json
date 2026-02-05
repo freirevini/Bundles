@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "id": "pythonbackend",
+  "title": "PythonBackEnd",
+  "category": "Python",
+  "description": "Bundle de skills para PythonBackEnd",
+  "skills": [
+    "async-python-patterns",
+    "backend-architect",
+    "django-pro",
+    "fastapi-pro",
+    "fastapi-templates",
+    "python-testing-patterns"
+  ],
+  "total_skills": 6,
+  "author": "freirevini"
+}

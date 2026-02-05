@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "id": "pythonbussinesintelligencie",
+  "title": "PythonBussinesIntelligencie",
+  "category": "Python",
+  "description": "Bundle de skills para PythonBussinesIntelligencie",
+  "skills": [
+    "analytics-tracking",
+    "business-analyst",
+    "clean-code",
+    "data-storytelling",
+    "grafana-dashboards",
+    "kpi-dashboard-design",
+    "python-patterns",
+    "python-pro"
+  ],
+  "total_skills": 8,
+  "author": "freirevini"
+}

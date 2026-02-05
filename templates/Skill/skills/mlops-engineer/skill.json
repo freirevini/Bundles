@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "mlops-engineer",
+  "title": "Mlops Engineer",
+  "description": "Build comprehensive ML pipelines, experiment tracking, and model",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "ml",
+    "kubernetes",
+    "azure",
+    "aws",
+    "docker",
+    "devops",
+    "gcp",
+    "ai"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

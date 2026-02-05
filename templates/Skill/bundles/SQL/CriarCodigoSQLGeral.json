@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "criarcodigosqlgeral",
+  "title": "CriarCodigoSQLGeral",
+  "category": "SQL",
+  "description": "Bundle de skills para CriarCodigoSQLGeral",
+  "skills": [
+    "nosql-expert",
+    "postgresql",
+    "sql-optimization-patterns",
+    "sql-pro"
+  ],
+  "total_skills": 4,
+  "author": "freirevini"
+}

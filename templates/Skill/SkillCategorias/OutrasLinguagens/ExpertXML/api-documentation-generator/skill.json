@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "id": "api-documentation-generator",
+  "title": "API Documentation Generator",
+  "description": "\"Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "api",
+    "javascript",
+    "typescript",
+    "python",
+    "security",
+    "testing"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

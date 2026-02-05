@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "id": "debugcodigopython",
+  "title": "DebugCodigoPython",
+  "category": "Python",
+  "description": "Bundle de skills para DebugCodigoPython",
+  "skills": [
+    "clean-code",
+    "debugger",
+    "debugging-strategies",
+    "error-handling-patterns",
+    "python-patterns",
+    "python-performance-optimization",
+    "python-pro",
+    "systematic-debugging"
+  ],
+  "total_skills": 8,
+  "author": "freirevini"
+}

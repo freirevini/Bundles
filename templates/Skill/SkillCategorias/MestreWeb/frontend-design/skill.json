@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "frontend-design",
+  "title": "Frontend Design (Distinctive, Production-Grade)",
+  "description": "Create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "frontend",
+    "ai",
+    "react"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

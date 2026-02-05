@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "criarcodigopythongeral",
+  "title": "CriarCodigoPythonGeral",
+  "category": "Python",
+  "description": "Bundle de skills para CriarCodigoPythonGeral",
+  "skills": [
+    "clean-code",
+    "python-packaging",
+    "python-patterns",
+    "python-pro"
+  ],
+  "total_skills": 4,
+  "author": "freirevini"
+}

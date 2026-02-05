@@ -1,0 +1,206 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "schema_version": "1.0",
+    "title": "Skill Association System",
+    "description": "Sistema de vinculação de skills para planos de ação. Gerencia correlações entre skills necessárias para executar ações específicas dentro de planos.",
+    "metadata": {
+        "created_at": "2026-02-05T14:24:52-03:00",
+        "updated_at": "2026-02-05T14:24:52-03:00",
+        "author": "freirevini",
+        "repository": "https://github.com/freirevini/Bundles"
+    },
+    "skill_sources": {
+        "description": "Referências aos diretórios de skills disponíveis",
+        "paths": {
+            "skills": "templates/Skill/skills",
+            "bundles": "templates/Skill/bundles",
+            "categories": "templates/Skill/SkillCategorias"
+        }
+    },
+    "correlation_types": {
+        "required": {
+            "code": "REQ",
+            "description": "Skills obrigatórias para execução da ação",
+            "priority": 1
+        },
+        "complementary": {
+            "code": "COMP",
+            "description": "Skills que agregam valor mas não são essenciais",
+            "priority": 2
+        },
+        "alternative": {
+            "code": "ALT",
+            "description": "Skills que podem substituir outras em cenários específicos",
+            "priority": 3
+        },
+        "desirable": {
+            "code": "DES",
+            "description": "Skills desejáveis para melhorar a qualidade da execução",
+            "priority": 4
+        }
+    },
+    "associations": [
+        {
+            "id": "assoc-001",
+            "plan_id": "plan-example-001",
+            "plan_name": "Criar API REST com FastAPI",
+            "action_id": "action-001",
+            "action_name": "Implementar endpoints de autenticação",
+            "status": "active",
+            "skills": {
+                "required": [
+                    {
+                        "skill_id": "fastapi-pro",
+                        "source": "skills/fastapi-pro",
+                        "reason": "Framework principal de desenvolvimento"
+                    },
+                    {
+                        "skill_id": "auth-implementation-patterns",
+                        "source": "SkillCategorias/DesenvolvedordeSeguranca/auth-implementation-patterns",
+                        "reason": "Padrões de autenticação JWT/OAuth2"
+                    }
+                ],
+                "complementary": [
+                    {
+                        "skill_id": "api-security-best-practices",
+                        "source": "SkillCategorias/DesenvolvedordeSeguranca/api-security-best-practices",
+                        "reason": "Melhores práticas de segurança em APIs"
+                    }
+                ],
+                "alternative": [
+                    {
+                        "skill_id": "django-pro",
+                        "source": "skills/django-pro",
+                        "reason": "Alternativa ao FastAPI se necessário"
+                    }
+                ],
+                "desirable": [
+                    {
+                        "skill_id": "python-testing-patterns",
+                        "source": "skills/python-testing-patterns",
+                        "reason": "Testes automatizados da implementação"
+                    }
+                ]
+            },
+            "bundles_linked": [
+                {
+                    "bundle_id": "PythonBackEnd",
+                    "source": "bundles/Python/PythonBackEnd.json",
+                    "type": "required"
+                }
+            ],
+            "metadata": {
+                "created_at": "2026-02-05T14:24:52-03:00",
+                "created_by": "freirevini",
+                "updated_at": "2026-02-05T14:24:52-03:00",
+                "updated_by": "freirevini"
+            },
+            "version_history": [
+                {
+                    "version": "1.0",
+                    "date": "2026-02-05T14:24:52-03:00",
+                    "author": "freirevini",
+                    "changes": "Criação inicial da associação"
+                }
+            ]
+        },
+        {
+            "id": "assoc-002",
+            "plan_id": "plan-example-002",
+            "plan_name": "Implementar Pipeline de Dados com DBT",
+            "action_id": "action-001",
+            "action_name": "Configurar projeto DBT",
+            "status": "active",
+            "skills": {
+                "required": [
+                    {
+                        "skill_id": "dbt-transformation-patterns",
+                        "source": "skills/dbt-transformation-patterns",
+                        "reason": "Core skill para DBT"
+                    },
+                    {
+                        "skill_id": "sql-pro",
+                        "source": "skills/sql-pro",
+                        "reason": "SQL avançado para transformações"
+                    }
+                ],
+                "complementary": [
+                    {
+                        "skill_id": "data-quality-frameworks",
+                        "source": "skills/data-quality-frameworks",
+                        "reason": "Frameworks de qualidade de dados"
+                    }
+                ],
+                "alternative": [],
+                "desirable": [
+                    {
+                        "skill_id": "airflow-dag-patterns",
+                        "source": "skills/airflow-dag-patterns",
+                        "reason": "Orquestração de pipelines"
+                    }
+                ]
+            },
+            "bundles_linked": [
+                {
+                    "bundle_id": "CriarCodigoSQLAnaliseDeDados",
+                    "source": "bundles/SQL/CriarCodigoSQLAnaliseDeDados.json",
+                    "type": "required"
+                }
+            ],
+            "metadata": {
+                "created_at": "2026-02-05T14:24:52-03:00",
+                "created_by": "freirevini",
+                "updated_at": "2026-02-05T14:24:52-03:00",
+                "updated_by": "freirevini"
+            },
+            "version_history": [
+                {
+                    "version": "1.0",
+                    "date": "2026-02-05T14:24:52-03:00",
+                    "author": "freirevini",
+                    "changes": "Criação inicial da associação"
+                }
+            ]
+        }
+    ],
+    "templates": {
+        "new_association": {
+            "id": "assoc-XXX",
+            "plan_id": "",
+            "plan_name": "",
+            "action_id": "",
+            "action_name": "",
+            "status": "draft",
+            "skills": {
+                "required": [],
+                "complementary": [],
+                "alternative": [],
+                "desirable": []
+            },
+            "bundles_linked": [],
+            "metadata": {
+                "created_at": "",
+                "created_by": "",
+                "updated_at": "",
+                "updated_by": ""
+            },
+            "version_history": []
+        },
+        "skill_reference": {
+            "skill_id": "",
+            "source": "",
+            "reason": ""
+        },
+        "bundle_reference": {
+            "bundle_id": "",
+            "source": "",
+            "type": ""
+        }
+    },
+    "usage_instructions": {
+        "add_association": "Para adicionar nova associação, copie o template 'new_association' e preencha os campos",
+        "link_skill": "Referencie skills pelo path relativo: skills/<nome>, bundles/<categoria>/<nome>.json, ou SkillCategorias/<categoria>/<skill>",
+        "update_version": "Ao modificar, incremente a versão e adicione entrada no version_history",
+        "collaboration": "Múltiplos autores podem editar; sempre atualize updated_by e updated_at"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "sqlbigquery",
+  "title": "SQLBigQuery",
+  "category": "SQL",
+  "description": "Bundle de skills para SQLBigQuery",
+  "skills": [
+    "cc-skill-clickhouse-io",
+    "clean-code",
+    "cloud-architect",
+    "data-engineer",
+    "database-design",
+    "spark-optimization",
+    "sql-pro"
+  ],
+  "total_skills": 7,
+  "author": "freirevini"
+}

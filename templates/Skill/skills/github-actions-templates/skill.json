@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "github-actions-templates",
+  "title": "GitHub Actions Templates",
+  "description": "Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflow templates.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "testing",
+    "docker",
+    "kubernetes",
+    "security",
+    "node",
+    "aws",
+    "python"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

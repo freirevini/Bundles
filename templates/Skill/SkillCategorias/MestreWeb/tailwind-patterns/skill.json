@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "tailwind-patterns",
+  "title": "Tailwind CSS Patterns (v4 - 2025)",
+  "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "javascript",
+    "react"
+  ],
+  "tools": [
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep"
+  ],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

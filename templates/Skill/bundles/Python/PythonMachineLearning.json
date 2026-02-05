@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "id": "pythonmachinelearning",
+  "title": "PythonMachineLearning",
+  "category": "Python",
+  "description": "Bundle de skills para PythonMachineLearning",
+  "skills": [
+    "clean-code",
+    "embedding-strategies",
+    "llm-evaluation",
+    "ml-engineer",
+    "ml-pipeline-workflow",
+    "mlops-engineer",
+    "python-patterns",
+    "python-pro"
+  ],
+  "total_skills": 8,
+  "author": "freirevini"
+}

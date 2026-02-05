@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "cloud-architect",
+  "title": "Cloud Architect",
+  "description": "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "aws",
+    "azure",
+    "gcp",
+    "security",
+    "sql",
+    "database",
+    "typescript",
+    "python"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

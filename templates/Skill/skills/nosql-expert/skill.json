@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "nosql-expert",
+  "title": "NoSQL Expert Patterns (Cassandra & DynamoDB)",
+  "description": "\"Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "sql",
+    "node",
+    "database",
+    "aws"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "melhorarcodigosql",
+  "title": "MelhorarCodigoSQL",
+  "category": "SQL",
+  "description": "Bundle de skills para MelhorarCodigoSQL",
+  "skills": [
+    "clean-code",
+    "code-refactoring-refactor-clean",
+    "database-design",
+    "database-optimizer",
+    "kaizen",
+    "sql-optimization-patterns",
+    "sql-pro"
+  ],
+  "total_skills": 7,
+  "author": "freirevini"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "bullmq-specialist",
+  "title": "BullMQ Specialist",
+  "description": "\"BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue.\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "node",
+    "typescript",
+    "backend",
+    "ai"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

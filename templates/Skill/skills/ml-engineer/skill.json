@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "ml-engineer",
+  "title": "Ml Engineer",
+  "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "ml",
+    "testing",
+    "llm",
+    "docker",
+    "kubernetes",
+    "aws",
+    "azure",
+    "gcp"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

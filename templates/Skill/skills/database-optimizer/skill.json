@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "database-optimizer",
+  "title": "Database Optimizer",
+  "description": "Expert database optimizer specializing in modern performance",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "database",
+    "sql",
+    "azure",
+    "api",
+    "aws",
+    "gcp",
+    "testing"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

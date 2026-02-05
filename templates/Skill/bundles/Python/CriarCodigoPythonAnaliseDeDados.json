@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "id": "criarcodigopythonanalisededados",
+  "title": "CriarCodigoPythonAnaliseDeDados",
+  "category": "Python",
+  "description": "Bundle de skills para CriarCodigoPythonAnaliseDeDados",
+  "skills": [
+    "clean-code",
+    "data-engineer",
+    "data-quality-frameworks",
+    "data-scientist",
+    "data-storytelling",
+    "dbt-transformation-patterns",
+    "python-patterns",
+    "python-pro",
+    "spark-optimization"
+  ],
+  "total_skills": 9,
+  "author": "freirevini"
+}

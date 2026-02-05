@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "documentation-templates",
+  "title": "Documentation Templates",
+  "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "api",
+    "ai",
+    "typescript",
+    "rag"
+  ],
+  "tools": [
+    "Read",
+    "Glob",
+    "Grep"
+  ],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

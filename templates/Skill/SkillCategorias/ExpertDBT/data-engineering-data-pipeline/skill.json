@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "data-engineering-data-pipeline",
+  "title": "Data Pipeline Architecture",
+  "description": "\"You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "python",
+    "docker"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

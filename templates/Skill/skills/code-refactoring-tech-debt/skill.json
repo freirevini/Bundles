@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "id": "code-refactoring-tech-debt",
+  "title": "Technical Debt Analysis and Remediation",
+  "description": "\"You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti\"",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "api",
+    "security",
+    "testing",
+    "python",
+    "react"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}

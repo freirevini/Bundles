@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "id": "backend-dev-guidelines",
+  "title": "Backend Development Guidelines",
+  "description": "Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod validation, unifiedConfig, Sentry error tracking, async safety, and testing discipline.",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "tags": [
+    "backend",
+    "node",
+    "typescript",
+    "testing",
+    "database",
+    "frontend",
+    "api"
+  ],
+  "tools": [],
+  "priority": "normal",
+  "compatibility": [
+    "antigravity",
+    "gemini-code-assist",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "freirevini"
+}
